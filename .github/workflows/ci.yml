@@ -27,10 +27,9 @@ jobs:
 
       - name: Build the static pages
         run: |
-          make clean
           make venv
           make build
-        working-directory: /
+        working-directory: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
