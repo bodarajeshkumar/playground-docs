@@ -7,8 +7,12 @@ site_author: "Author"
 
 nav:
   - Home: index.md
+  - 'Architecture': ./architecture.md
+  - 'Demo manager': ./demo-manager.md
+  - 'Code Server': ./code-server.md
+  - 'Asset Hub': ./assethub.md
+  - 'DB schema': ./db.md
   - 'Unit testing': ./unit-testing.md
-  - 'Architecture': ./page2.md
 # Theme
 theme:
   name: material
